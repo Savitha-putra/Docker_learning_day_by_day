@@ -6,7 +6,6 @@ This is a repo where i will place all screen shots and commands used along with 
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-
 - [Docker](#docker)
   - [How to migrate a Docker image without registry](#how-to-migrate-a-docker-image-without-registry)
   - [Clean up Docker before starting](#clean-up-docker-before-starting)
@@ -21,6 +20,8 @@ This is a repo where i will place all screen shots and commands used along with 
 
 
 ## Docker
+<a target="_blank" href="/images/book.png"><img border="1" alt="Blue whale image representing Docker for fun" src="/images/book.png"></a>
+
  we will refer below links for explanation and understanding of terms we come across.
 [Docs](https://docs.docker.com/)
 
