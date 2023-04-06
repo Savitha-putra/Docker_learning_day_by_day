@@ -20,7 +20,7 @@ This is a repo where i will place all screen shots and commands used along with 
 
 
 ## Docker
-<a target="_blank" href="/images/book.png"><img border="1" alt="Blue whale image representing Docker for fun" src="/images/book.png"></a>
+<a target="_blank" href="/images/book.png"><img border="1" alt="Blue whale image representing Docker for fun" src="/images/book.png" width=200></a>
 
  we will refer below links for explanation and understanding of terms we come across.
 [Docs](https://docs.docker.com/)
