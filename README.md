@@ -13,8 +13,8 @@ This is a repo where i will place all screen shots and commands used along with 
   - [Install Docker on Linux](#install-docker-on-linux)
   - [Install Docker-Compose](#install-docker-compose)
   - [Dockerfile](#dockerfile)
-- [Git and GitHub](#git-and-github)
-  - [Initial Git configuration](#initial-git-configuration)
+- [Jenkins](#Jenkins)
+  - [Initial Git configuration](#Jenkins-installed-in-docker)
     - [Generate SSH Keys](#generate-ssh-keys)
     - [Generate and auto-sign your commits with GPG](#generate-and-auto-sign-your-commits-with-gpg)
 
@@ -23,7 +23,7 @@ This is a repo where i will place all screen shots and commands used along with 
 <a target="_blank" href="/images/docker_image.png"><img border="1" alt="Blue whale image representing Docker for fun" src="/images/docker_image.png" width=1000></a>
 
  we will refer below links for explanation and understanding of terms we come across.
-[Docs](https://docs.docker.com/)
+[docs.docker.com](https://docs.docker.com/)
 
 Docker is a containerization platform that provides a simple way to build, deploy, and manage software containers. Docker containers are isolated from each other and from the host operating system.
 
@@ -54,4 +54,22 @@ docker images
 docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
 # To remove all volumes not used by at least one container:
 docker volume prune
+```
+## Jenkins
+
+Followed the instructions on below link to get image and install jenkins
+[hub.docker.com](https://hub.docker.com/r/h1kkan/jenkins-docker)
+
+```bash
+# To pull docker image into local
+docker pull h1kkan/jenkins-docker
+# To start contianer of docker image
+docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home h1kkan/jenkins-docker:lts
+```
+Any issue faced while installing jenkins on top of Docker use[github.of.docker.above.image]
+(https://github.com/jenkinsci/docker/blob/master/README.md)
+## Jenkins installed in docker
+
+```bash
+docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home h1kkan/jenkins-docker:lts
 ```
