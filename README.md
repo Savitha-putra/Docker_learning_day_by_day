@@ -72,6 +72,11 @@ docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home h1kkan/
 ```
 Any issue faced while installing jenkins on top of Docker use[github.of.docker.above.image]
 (https://github.com/jenkinsci/docker/blob/master/README.md)
-## Jenkins installed in docker
+## Jenkins instalation in Docker
+We are following the commands given in offical page here.(https://www.jenkins.io/doc/book/installing/docker/)
 
-
+```bash
+# To create a bridge network in Docker
+docker network create jenkins
+```
+Bridges connects two or more different LANs that has a similar protocol and provides communication between the devices (nodes) in them. By joining multiple LANs, bridges help in multiplying the network capacity of a single LAN. Since they operate at data link layer, they transmit data as data frames.
