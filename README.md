@@ -71,6 +71,4 @@ Any issue faced while installing jenkins on top of Docker use[github.of.docker.a
 (https://github.com/jenkinsci/docker/blob/master/README.md)
 ## Jenkins installed in docker
 
-```bash
-docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home h1kkan/jenkins-docker:lts
-```
+
