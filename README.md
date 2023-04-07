@@ -1,6 +1,7 @@
-# Dheeraj Learning Docker in local
+# Learning Docker in local
 
-This is a repo where i will place all screen shots and commands used along with its description for my better understanding of Docker.Plan is to learn docker thoroughly
+in this repo we will learn the docker and its working section one by one.Plan is to learn docker thoroughly.
+Each section has screenshots and scripts learned along with description
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
