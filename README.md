@@ -1,6 +1,6 @@
-# Learning Docker in local
+# Learning Docker and jenkins in local
 
-in this repo, we will learn the docker and its working sections one by one.Plan is to learn docker thoroughly.
+in this repo, we will learn the docker and jenkins along with its working sections one by one.Plan is to learn docker and Jenkins thoroughly.
 Each section has screenshots and scripts learned along with description
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
