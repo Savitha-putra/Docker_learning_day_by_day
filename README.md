@@ -92,4 +92,6 @@ tar -xvf archive.tar.gz
 tar -czvf file.tar.gz directory
 #to create a tar from directories and files in same path
 tar -czvf filename.tar.gz /path/to/dir1 dir2 file1 file2
+#to list the contents of tar file use -t option
+tar -ztvf projects.tar.gz
 ```
