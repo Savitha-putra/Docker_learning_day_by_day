@@ -18,6 +18,7 @@ Each section has screenshots and scripts learned along with description
   - [Initial Git configuration](#Jenkins-installed-in-docker)
     - [Generate SSH Keys](#generate-ssh-keys)
     - [Generate and auto-sign your commits with GPG](#generate-and-auto-sign-your-commits-with-gpg)
+- [Bash examples](#Bash)
 
 
 ## Docker
@@ -80,3 +81,15 @@ We are following the commands given in offical page here.(https://www.jenkins.io
 docker network create jenkins
 ```
 Bridges connects two or more different LANs that has a similar protocol and provides communication between the devices (nodes) in them. By joining multiple LANs, bridges help in multiplying the network capacity of a single LAN. Since they operate at data link layer, they transmit data as data frames.
+
+## Bash
+```bash
+#to extract a tar.gz file, use the --extract (-x) option
+tar -xf archive.tar.gz
+#-v option will print the names of the files being extracted on the terminal.
+tar -xvf archive.tar.gz
+#to create a tar file from the given directory
+tar -czvf file.tar.gz directory
+#to create a tar from directories and files in same path
+tar -czvf filename.tar.gz /path/to/dir1 dir2 file1 file2
+```
