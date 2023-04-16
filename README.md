@@ -33,6 +33,20 @@ List of all commands are here.[docs.docker.com/engine/reference/commandline/dock
 Top 25 commands and examples here.[geekflare.com/docker-commands/](https://geekflare.com/docker-commands/)
 
 ```bash
+# To check which all images in your system
+docker images
+REPOSITORY   TAG       IMAGE ID       CREATED         SIZE
+centos       latest    5d0da3dc9764   19 months ago   231MB
+
+# to name the docker container name with particular name use --name 
+docker run -d --name jenkins_server centos
+1437cafe4399aa7f36bb5183fe2f879fc5590769b8310ed7be63b467bebd7da4
+
+#to check all running containers in your system
+docker ps -a
+CONTAINER ID   IMAGE     COMMAND       CREATED         STATUS                     PORTS     NAMES
+1437cafe4399   centos    "/bin/bash"   9 seconds ago   Exited (0) 7 seconds ago             jenkins_server
+
 # To start the docker daemon:
 docker -d
 # To start a container with an interactive shell:
