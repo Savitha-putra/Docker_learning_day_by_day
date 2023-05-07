@@ -47,6 +47,25 @@ docker ps -a
 CONTAINER ID   IMAGE     COMMAND       CREATED         STATUS                     PORTS     NAMES
 1437cafe4399   centos    "/bin/bash"   9 seconds ago   Exited (0) 7 seconds ago             jenkins_server
 
+# to test Docker installed properly, best image to and container to play with will be
+docker run docker/whalesay cowsay "Hey Team! Good morning"
+Status: Downloaded newer image for docker/whalesay:latest
+ __________________________
+< Hey Team !, Good Morning >
+ --------------------------
+    \
+     \
+      \
+                    ##        .
+              ## ## ##       ==
+           ## ## ## ##      ===
+       /""""""""""""""""___/ ===
+  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+       \______ o          __/
+        \    \        __/
+          \____\______/
+
+
 # To start the docker daemon:
 docker -d
 # To start a container with an interactive shell:
