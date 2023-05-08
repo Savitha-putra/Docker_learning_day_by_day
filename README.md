@@ -126,7 +126,13 @@ Description:	Ubuntu 18.04.5 LTS
 Release:	18.04
 Codename:	bionic
 ```
-
+To get the underlying architecture
+```bash
+ uname -i
+i686
+ uname -a
+Linux dheeraj-desktop 4.15.0-210-generic #221-Ubuntu SMP Tue Apr 18 08:32:28 UTC 2023 i686 i686 i686 GNU/Linux
+```
 
 
 ```bash
