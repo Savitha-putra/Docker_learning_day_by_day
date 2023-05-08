@@ -116,6 +116,19 @@ docker network create jenkins
 Bridges connects two or more different LANs that has a similar protocol and provides communication between the devices (nodes) in them. By joining multiple LANs, bridges help in multiplying the network capacity of a single LAN. Since they operate at data link layer, they transmit data as data frames.
 
 ## Bash
+
+To get the version of ubuntu installed.
+```bash
+dheeraj@dheeraj-desktop:~$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.5 LTS
+Release:	18.04
+Codename:	bionic
+```
+
+
+
 ```bash
 #to extract a tar.gz file, use the --extract (-x) option
 tar -xf archive.tar.gz
