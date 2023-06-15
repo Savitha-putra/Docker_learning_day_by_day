@@ -136,6 +136,8 @@ Linux dheeraj-desktop 4.15.0-210-generic #221-Ubuntu SMP Tue Apr 18 08:32:28 UTC
 
 
 ```bash
+# to create a tar file
+tar -cvf somefilename.tar dir dir2
 #to extract a tar.gz file, use the --extract (-x) option
 tar -xf archive.tar.gz
 #-v option will print the names of the files being extracted on the terminal.
@@ -146,4 +148,6 @@ tar -czvf file.tar.gz directory
 tar -czvf filename.tar.gz /path/to/dir1 dir2 file1 file2
 #to list the contents of tar file use -t option
 tar -ztvf projects.tar.gz
+# to create zip files from the tar
+gzip -v anything.tar.zip
 ```
