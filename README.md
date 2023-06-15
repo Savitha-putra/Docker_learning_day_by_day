@@ -148,6 +148,6 @@ tar -czvf file.tar.gz directory
 tar -czvf filename.tar.gz /path/to/dir1 dir2 file1 file2
 #to list the contents of tar file use -t option
 tar -ztvf projects.tar.gz
-# to create zip files from the tar
-gzip -v anything.tar.zip
+# to create zip files from the tar and it will create anything.tar.gz
+gzip -v anything.tar
 ```
