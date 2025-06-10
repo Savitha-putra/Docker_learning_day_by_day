@@ -73,3 +73,17 @@ scrape_interval	Global frequency for scraping targets
 job_name	Label to group a set of targets
 targets	Services to scrape metrics from
 
+Next to learn
+👀 Want More?
+You can extend this file later to:
+
+Scrape a custom app like Python/Node/Java
+
+Use relabel_configs to filter labels
+
+Discover targets dynamically (e.g., via Kubernetes service discovery)
+
+Add alerting rules using rule_files
+
+Would you like an example of how to expose custom metrics from a Python or Node.js app and let Prometheus scrape that too?
+
