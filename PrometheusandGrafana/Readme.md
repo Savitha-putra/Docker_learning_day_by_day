@@ -131,3 +131,12 @@ f1ca912c9d88   grafana/grafana      "/run.sh"                15 minutes ago   Up
 f45f143eae3d   prom/prometheus      "/bin/prometheus --c…"   15 minutes ago   Up 15 minutes   0.0.0.0:9090->9090/tcp   prometheus
 a7e86f1f3898   prom/node-exporter   "/bin/node_exporter"     15 minutes ago   Up 15 minutes   0.0.0.0:9100->9100/tcp   node-exporter
 ```
+
+### 6. Open Prometheus and Grafana in browser
+
+``` bash
+| Tool       | URL                                            |
+| ---------- | ---------------------------------------------- |
+| Prometheus | [http://localhost:9090](http://localhost:9090) |
+| Grafana    | [http://localhost:3000](http://localhost:3000) |
+```
