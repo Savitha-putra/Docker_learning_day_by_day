@@ -140,3 +140,13 @@ a7e86f1f3898   prom/node-exporter   "/bin/node_exporter"     15 minutes ago   Up
 | Prometheus | [http://localhost:9090](http://localhost:9090) |
 | Grafana    | [http://localhost:3000](http://localhost:3000) |
 ```
+
+This is how prometheus looks like
+
+![image](https://github.com/user-attachments/assets/2180141a-7539-492e-9a83-bd97046dca91)
+
+
+This is how grafana looks like once opened
+![image](https://github.com/user-attachments/assets/994f8195-ba51-45f2-93ef-9800fcd762ca)
+
+
