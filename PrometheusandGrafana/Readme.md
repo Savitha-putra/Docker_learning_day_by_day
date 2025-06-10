@@ -146,7 +146,8 @@ This is how prometheus looks like
 ![image](https://github.com/user-attachments/assets/2180141a-7539-492e-9a83-bd97046dca91)
 
 
-This is how grafana looks like once opened
+This is how grafana looks like
+
 ![image](https://github.com/user-attachments/assets/994f8195-ba51-45f2-93ef-9800fcd762ca)
 
 
