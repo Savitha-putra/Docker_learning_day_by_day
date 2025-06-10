@@ -105,3 +105,29 @@ scrape_configs:
 ``` bash
 docker-compose up -d
 ```
+
+### 5. current output of above docker compose 
+
+```bash
+[+] Running 8/8
+ ✔ Network docker-monitoring_default           Created                                                                                                                                                       0.2s
+ ✔ Volume "docker-monitoring_grafana-storage"  Created                                                                                                                                                       0.0s
+ ✔ Container app1                              Started                                                                                                                                                       2.9s
+ ✔ Container app3                              Started                                                                                                                                                       3.2s
+ ✔ Container node-exporter                     Started                                                                                                                                                       3.2s
+ ✔ Container prometheus                        Started                                                                                                                                                       3.2s
+ ✔ Container app2                              Started                                                                                                                                                       2.9s
+ ✔ Container grafana                           Started                                                                                                                                                       3.2s
+
+
+
+dheeraj@Dheeraj-pc-best MINGW64 ~/docker-monitoring
+$ docker ps
+CONTAINER ID   IMAGE                COMMAND                  CREATED          STATUS          PORTS                    NAMES
+24cea78b903b   redis                "docker-entrypoint.s…"   15 minutes ago   Up 15 minutes   0.0.0.0:6379->6379/tcp   app3
+ba2109113fd2   nginx                "/docker-entrypoint.…"   15 minutes ago   Up 15 minutes   0.0.0.0:8081->80/tcp     app1
+6e40bb84d9da   httpd                "httpd-foreground"       15 minutes ago   Up 15 minutes   0.0.0.0:8082->80/tcp     app2
+f1ca912c9d88   grafana/grafana      "/run.sh"                15 minutes ago   Up 15 minutes   0.0.0.0:3000->3000/tcp   grafana
+f45f143eae3d   prom/prometheus      "/bin/prometheus --c…"   15 minutes ago   Up 15 minutes   0.0.0.0:9090->9090/tcp   prometheus
+a7e86f1f3898   prom/node-exporter   "/bin/node_exporter"     15 minutes ago   Up 15 minutes   0.0.0.0:9100->9100/tcp   node-exporter
+```
