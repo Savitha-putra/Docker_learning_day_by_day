@@ -25,7 +25,12 @@ This project sets up a complete local monitoring stack using **Docker Compose**,
 
 ### 1. directory structure
 
-```text docker-monitoring/ ├── docker-compose.yml └── prometheus/ └── prometheus.yml ```
+```text
+docker-monitoring/ 
+├── docker-compose.yml
+└── prometheus
+ └── prometheus.yml
+ ```
 
 
 ### 2. docker-compose.yml
