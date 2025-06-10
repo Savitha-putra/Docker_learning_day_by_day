@@ -151,3 +151,31 @@ This is how grafana looks like
 ![image](https://github.com/user-attachments/assets/994f8195-ba51-45f2-93ef-9800fcd762ca)
 
 
+### 7. how to setup Grafana Dashbaord
+
+``` bash
+Open http://localhost:3000
+
+Login: admin / admin → Set new password
+
+Add Data Source:
+
+Go to ⚙️ Settings → Data Sources → Add Data Source
+
+Choose Prometheus
+
+Set URL to: http://prometheus:9090
+
+Click Save & Test
+
+Import a Dashboard:
+
+Click "+" → Import
+
+Enter dashboard ID: 1860
+
+Click Load, choose Prometheus as data source, click Import
+
+🎉 You’ll now see full system metrics like CPU, memory, disk, and Docker info — thanks to Node Exporter.
+
+```
