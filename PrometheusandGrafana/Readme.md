@@ -83,6 +83,8 @@ volumes:
   grafana-storage:
 
 ```
+📄 For more details on Docker Compose setup, [click here](./dockercomposeindetails.md).
+
 
 ### 3. prometheus.yml 
 
