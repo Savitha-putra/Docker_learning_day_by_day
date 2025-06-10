@@ -74,5 +74,5 @@ docker run --name redis -p 6379:6379 -d redis
 ## 🔗 Useful Links
 
 - [Official Redis Docs](https://redis.io/docs/)
-- [Redis CLI Cheat Sheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/databases/redis.md)
+- [Redis CLI Cheat Sheet]((https://github.com/LeCoupa/awesome-cheatsheets/blob/master/databases/redis.sh))
 
