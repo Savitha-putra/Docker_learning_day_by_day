@@ -101,6 +101,7 @@ scrape_configs:
     static_configs:
       - targets: ['node-exporter:9100']
 ```
+ 📄 For more details on prometheus setup, [click here](./prometheusfileindetails.md).
 
 ### 4. run docker compose command from /docker-monitoring where you have kept docker-compose.yml
 
