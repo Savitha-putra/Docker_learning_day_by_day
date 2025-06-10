@@ -183,3 +183,27 @@ Click Load, choose Prometheus as data source, click Import
 ### 8. after above setup Grafana gets all metrics from Prometheus like this
 
 ![image](https://github.com/user-attachments/assets/deeacb44-5612-4e68-a5fd-77f8638be88d)
+
+### 9. this is how nginx app  looks like in browser
+
+![image](https://github.com/user-attachments/assets/e35a0df0-5f16-42fb-8b33-fe6e5fec406d)
+
+### 10. this is how https looks like
+The httpd image in your docker-compose.yml refers to the official Apache HTTP Server Docker image.
+
+✅ So when you write:
+
+```yaml
+app2:
+  image: httpd
+  container_name: app2
+  ports:
+    - "8082:80"
+```
+You’re telling Docker:
+
+Run Apache HTTP Server
+Name the container app2
+Expose port 80 (inside container) to port 8082 on your machine
+
+![image](https://github.com/user-attachments/assets/be67ee47-ffe1-4179-8d87-392ffe94f2ce)
