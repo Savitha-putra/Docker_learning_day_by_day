@@ -179,3 +179,7 @@ Click Load, choose Prometheus as data source, click Import
 🎉 You’ll now see full system metrics like CPU, memory, disk, and Docker info — thanks to Node Exporter.
 
 ```
+
+### 8. after above setup Grafana gets all metrics from Prometheus like this
+
+![image](https://github.com/user-attachments/assets/deeacb44-5612-4e68-a5fd-77f8638be88d)
