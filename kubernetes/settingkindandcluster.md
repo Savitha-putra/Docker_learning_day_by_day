@@ -10,6 +10,15 @@ This guide covers 10 essential `kubectl` commands to explore and understand a Ku
 ## 1. Check Cluster Info
 ```bash
 kubectl cluster-info
+
+
+(devbox) root@Dheeraj-pc-best:~/devops-directive-kubernetes-course/03-installation-and-setup# kubectl cluster-info
+Kubernetes control plane is running at https://ip.09.08.07
+CoreDNS is running at https://ip.09.08.07/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+
+
 ```
 Displays the addresses of the Kubernetes control plane and core services (like CoreDNS). Confirms the cluster is running.
 
